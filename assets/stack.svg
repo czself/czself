@@ -1,18 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="C/C++, STM32, FreeRTOS, CAN/UART, PID, IMU, CMake, OpenOCD">
-  <rect x="12" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="82" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">C / C++</text>
-  <rect x="160" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="230" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">STM32</text>
-  <rect x="308" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="378" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">FreeRTOS</text>
-  <rect x="456" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="526" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">CAN / UART</text>
-  <rect x="604" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="674" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">PID</text>
-  <rect x="752" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="822" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">IMU</text>
-  <rect x="900" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="970" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">CMake</text>
-  <rect x="1048" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
-  <text x="1118" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">OpenOCD</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-label="Robotics development technology stack">
+<title>Control, vision, localization and navigation</title>
+<rect x="12" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="106" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">C / C++</text>
+<rect x="210" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="304" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">Python</text>
+<rect x="408" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="502" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">STM32</text>
+<rect x="606" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="700" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">FreeRTOS</text>
+<rect x="804" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="898" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">ROS Noetic</text>
+<rect x="1002" y="7" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="1096" y="34" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">Gazebo</text>
+<rect x="12" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="106" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">OpenCV</text>
+<rect x="210" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="304" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">YOLO</text>
+<rect x="408" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="502" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">GMapping</text>
+<rect x="606" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="700" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">AMCL</text>
+<rect x="804" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="898" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">move_base</text>
+<rect x="1002" y="61" width="188" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="1096" y="88" text-anchor="middle" fill="#1f2328" font-family="Consolas, Liberation Mono, monospace" font-size="19">CAN / UART</text>
 </svg>

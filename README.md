@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
-  <img src="./assets/stack.svg" width="100%" alt="C/C++, STM32, FreeRTOS, CAN/UART, PID, IMU, CMake, OpenOCD" />
+  <img src="./assets/stack.svg" width="100%" alt="C/C++, Python, STM32, FreeRTOS, ROS Noetic, Gazebo, OpenCV, YOLO, GMapping, AMCL, move_base, CAN/UART" />
 </picture>
 
 ## 01 / RM2026：整车电控
@@ -51,7 +51,45 @@
 
 </details>
 
-## 02 / 具体问题，具体定位
+## 02 / 我的机器人开发技术栈
+
+从下位机电控到 ROS 上位机，覆盖 **控制、视觉、建图定位、导航与系统联调**。以下技术用于 RM2026 电控、云台实验和 ROS / Gazebo 巡检项目。
+
+| 方向 | 技术栈 | 具体实践 |
+| :--- | :--- | :--- |
+| **嵌入式与实时系统** | C / C++、STM32F407 / F103、HAL、FreeRTOS、CAN / UART、SPI / I²C | 外设与设备驱动接入、中断与 DMA、任务组织、通信协议解析、设备在线检测。 |
+| **机器人运动控制** | PID、底盘运动学、Yaw / Pitch、编码器、BMI088 / IMU、姿态解算 | 底盘跟随与小陀螺、云台角度 / 速度闭环、坐标与单位统一、限位、模式切换及参数联调。 |
+| **ROS 系统集成** | ROS 1 Noetic、rospy、TF、Topic、Actionlib、cv_bridge | 节点与消息接口对接、坐标变换、源帧时间戳关联、导航目标下发与执行状态反馈。 |
+| **视觉感知** | Python、OpenCV、Ultralytics YOLO、RGB-D、PaddleOCR | 模型推理接入、目标检测、图像裁剪、置信度筛选、深度辅助定位、车牌 OCR 与结果可视化。 |
+| **建图与定位** | GMapping、AMCL、map_server、LaserScan、里程计 | 二维 SLAM 建图、地图保存与加载、初始位姿配置、定位参数联调，以及 map / odom / base 坐标链检查。 |
+| **导航与避障** | move_base、Navfn、costmap_2d、ForwardPathFollower | 全局路径规划、局部路径跟随、footprint 碰撞检查、激光与深度障碍接入、多点任务与到点航向控制。 |
+| **仿真与工程调试** | Gazebo Classic、RViz、rosbag、VOFA+、GDB / OpenOCD | 仿真传感器接入、地图与路径可视化、运行数据记录、总线与控制遥测、烧录及故障定位。 |
+
+**开发环境与构建**：Linux · Git · CMake · PlatformIO · Docker。
+
+## 03 / 视觉联调与导航集成
+
+这些实践主要来自 **[ROS / Gazebo 智慧社区巡检项目](https://github.com/czself/ros)**，涵盖感知结果接入、机器人运动配合与任务验收。
+
+### 视觉与运动配合
+
+- **相机 → ROS → 推理**：通过 `cv_bridge` 对接图像与 OpenCV / YOLO，检查源帧、时间戳、检测类别、置信度和输出频率。
+- **检测 → 空间位置**：结合 `CameraInfo`、深度图与同源帧 TF，把图像观测关联到机器人 / 地图坐标，处理深度缺失、重复观测和结果过期。
+- **识别 → 任务行为**：将交通灯检测结果接入通行条件；将人物检测接入位置关联与统计；对车牌进行 ROI 裁剪、PaddleOCR 识别和多帧结果核对。
+- **到点 → 稳定取图**：联调导航位置、航向、拍照时机与目标画面范围，保留原图、标注图、识别结果及源帧信息。
+
+[视觉节点源码](https://github.com/czself/ros/blob/main/scripts/yolo_inspector.py) · [任务与取图联调](https://github.com/czself/ros/blob/main/scripts/route_executor.py) · [高清 OCR 接入记录](https://github.com/czself/ros/blob/main/docs/agent_context/tasks/task008/ocr_hd_20260928.md)
+
+### 建图、定位与导航联调
+
+- **定位链路**：配置 GMapping 建图与 AMCL 定位，核对地图、里程计、激光输入和 TF 坐标关系。
+- **规划与执行**：对接 Navfn 全局规划和自定义 `ForwardPathFollower`，联调局部代价地图、车体 footprint、速度限制、末端位置与航向对齐。
+- **避障与任务**：接入 LaserScan / PointCloud2 障碍信息，用 `move_base` Action 串联多目标点、返回起点、超时处理和进度检查。
+- **验证与复盘**：记录路径、位姿、速度命令、任务日志与识别结果，分析到点偏差、定位误差、停滞和任务失败原因。
+
+[导航配置](https://github.com/czself/ros/tree/main/navigation) · [局部路径跟随器](https://github.com/czself/ros/tree/main/ros_packages/forward_path_follower) · [完整任务统计](https://github.com/czself/ros/blob/main/docs/agent_context/tasks/task009/docs20_20260929/REPORT.md)
+
+## 04 / 具体问题，具体定位
 
 **[云台控制与调试记录](https://github.com/czself/gimbal)** · STM32F407 / BMI088 / GM6020 / VOFA+
 
@@ -61,7 +99,7 @@
 
 [查看调试日志 ↗](https://github.com/czself/gimbal/blob/main/DEBUG_LOG.md)
 
-## 03 / 更多实践
+## 05 / 更多实践
 
 | 项目 | 技术延伸 |
 | :--- | :--- |
