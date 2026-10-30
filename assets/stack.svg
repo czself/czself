@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="C/C++, STM32, FreeRTOS, CAN/UART, PID, IMU, CMake, OpenOCD">
+  <rect x="12" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="82" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">C / C++</text>
+  <rect x="160" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="230" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">STM32</text>
+  <rect x="308" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="378" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">FreeRTOS</text>
+  <rect x="456" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="526" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">CAN / UART</text>
+  <rect x="604" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="674" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">PID</text>
+  <rect x="752" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="822" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">IMU</text>
+  <rect x="900" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="970" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">CMake</text>
+  <rect x="1048" y="7" width="140" height="42" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="1118" y="34" text-anchor="middle" fill="#1f2328" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18">OpenOCD</text>
+</svg>
