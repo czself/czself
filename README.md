@@ -1,25 +1,27 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <img src="./assets/header.svg" width="100%" alt="czself — RoboMaster robot control and algorithms" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="czself · RoboMaster：完整实现 RM2026 步兵整车电控，1v1 步兵对抗赛全国二等奖，目前负责步兵改哨兵算法开发。" />
 </picture>
 
-完成 **RM2026 步兵机器人整车电控**，目前负责 **步兵改哨兵算法开发**。<br>
-关注机器人控制、视觉联调、建图定位与导航集成。
-
-<a href="https://github.com/totrytakeoff/RM2026/tree/basic_framework">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/highlights-dark.svg" />
-    <img src="./assets/highlights.svg" width="100%" alt="RoboMaster 1v1 步兵对抗赛全国二等奖；RM2026 步兵整车电控实现：底盘、云台、发射与遥控通信。" />
-  </picture>
-</a>
-
-**[主项目](#主项目)　·　[机器人技术栈](#机器人技术栈)　·　[联调与验证](#联调与验证)　·　[更多项目](#更多项目)**
+<p align="center">
+  <samp><a href="#主项目">01 · RM2026</a>　 /　 <a href="#机器人技术栈">02 · 技术栈</a>　 /　 <a href="#联调与验证">03 · 联调记录</a>　 /　 <a href="#更多项目">04 · 更多项目</a></samp>
+</p>
 
 ## 主项目
 
-### [RM2026 · 步兵整车电控 ↗](https://github.com/totrytakeoff/RM2026/tree/basic_framework)
+<a href="https://github.com/totrytakeoff/RM2026/tree/basic_framework">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-rm2026-dark.svg" />
+    <img src="./assets/project-rm2026.svg" width="100%" alt="RM2026 步兵整车电控：底盘、云台、发射机构与遥控通信。点击查看赛季控制基线。" />
+  </picture>
+</a>
 
-**YZ Control / STM32F407** — 在战队协作项目中完成步兵整车电控实现与联调，贯通遥控输入、机构控制、传感反馈和电机执行。
+**我的工作**：在 YZ Control 战队协作项目中完成步兵整车电控实现与联调，贯通遥控输入、机构控制、传感反馈和电机执行。
+
+[赛季控制基线 ↗](https://github.com/totrytakeoff/RM2026/tree/basic_framework)　[当前框架分支 ↗](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos)　[整车应用源码 ↗](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos/applications/infantry)
+
+<details>
+<summary><b>展开模块源码与控制架构</b> · 底盘 / 云台 / 发射 / FreeRTOS</summary>
 
 | 模块 | 实现与源码 |
 | :--- | :--- |
@@ -27,11 +29,6 @@
 | **云台** | Yaw / Pitch、IMU 反馈、角度 / 速度切换、软硬限位 · [源码](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos/applications/infantry/gimbal) |
 | **发射** | 摩擦轮与拨弹协同、单发 / 连发、扳机边沿与状态管理 · [源码](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos/applications/infantry/shoot) |
 | **通信** | 遥控状态归一化、模式映射、CAN / UART 与掉线处理 · [源码](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos/applications/infantry/command) |
-
-[赛季控制基线](https://github.com/totrytakeoff/RM2026/tree/basic_framework) · [当前框架分支](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos) · [整车应用源码](https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos/applications/infantry)
-
-<details>
-<summary><b>展开控制链路与 FreeRTOS 设计</b> · 任务分工 / 状态所有权 / 工程验证</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/control-loop-dark.svg" />
@@ -54,6 +51,31 @@
 ## 机器人技术栈
 
 项目实践覆盖 **下位机电控 → ROS 系统集成 → 感知与导航**。
+
+<p align="center">
+  <a href="https://github.com/totrytakeoff/RM2026/tree/refactor/infantry-freertos"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-control-dark.svg" />
+    <img src="./assets/skill-control.svg" width="400" alt="电控与实时系统：C/C++、STM32、FreeRTOS、PID、CAN/UART、IMU。" />
+  </picture></a>
+  <a href="https://github.com/czself/ros/blob/main/scripts/yolo_inspector.py"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-vision-dark.svg" />
+    <img src="./assets/skill-vision.svg" width="400" alt="视觉与 ROS 联调：Python、OpenCV、YOLO、ROS Noetic、RGB-D、PaddleOCR。" />
+  </picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/czself/ros/tree/main/navigation"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-navigation-dark.svg" />
+    <img src="./assets/skill-navigation.svg" width="400" alt="建图定位与导航：GMapping、AMCL、move_base、Navfn、costmap、路径跟随。" />
+  </picture></a>
+  <a href="https://github.com/czself/gimbal/blob/main/DEBUG_LOG.md"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-tools-dark.svg" />
+    <img src="./assets/skill-tools.svg" width="400" alt="仿真与工程验证：Gazebo、RViz、rosbag、GDB、OpenOCD、VOFA+、Linux、Docker、CMake、PlatformIO。" />
+  </picture></a>
+</p>
+
+<details>
+<summary><b>完整技术栈与项目实践</b> · 点击卡片可直达对应项目</summary>
 
 <table width="100%">
   <tr>
@@ -85,6 +107,8 @@
     </td>
   </tr>
 </table>
+
+</details>
 
 ## 联调与验证
 
@@ -130,11 +154,9 @@
 
 ## 更多项目
 
-| 项目 | 方向 |
-| :--- | :--- |
-| [**STM32 双轨教程**](https://github.com/czself/stm_regis_hal) | 寄存器 / HAL、外设通信与 FreeRTOS，配套中文讲解 |
-| [**ROS 智慧社区机器人**](https://github.com/czself/ros) | Gazebo 建图、导航、十点巡检与视觉识别 |
-| [**YZ Control 战队官网**](https://github.com/czself/robot_web_team) | Next.js / React / TypeScript，战队展示与队员门户 |
-| [**TinyVim 终端 IDE**](https://github.com/czself/TinyVim-IDE) | Rust，编译运行、文件浏览与 AI 编辑预览 |
+- **[STM32 双轨教程](https://github.com/czself/stm_regis_hal)**　寄存器 / HAL、外设通信与 FreeRTOS。
+- **[ROS 智慧社区机器人](https://github.com/czself/ros)**　Gazebo 建图、导航、十点巡检与视觉识别。
+- **[YZ Control 战队官网](https://github.com/czself/robot_web_team)**　Next.js / React / TypeScript，战队展示与队员门户。
+- **[TinyVim 终端 IDE](https://github.com/czself/TinyVim-IDE)**　Rust，编译运行、文件浏览与 AI 编辑预览。
 
 [浏览全部仓库 ↗](https://github.com/czself?tab=repositories)

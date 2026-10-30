@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236" role="img" aria-labelledby="title desc">
+<title id="title">RM2026 · 步兵整车电控</title>
+<desc id="desc">YZ Control 战队项目。底盘运动控制、云台姿态控制、发射机构协同及遥控通信。</desc>
+<rect x="1" y="1" width="1198" height="234" rx="18" fill="#14191f" stroke="#323a43"/>
+<text x="40" y="40" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" letter-spacing="1.4">SELECTED WORK / YZ CONTROL</text>
+<text x="36" y="112" fill="#f1f3f5" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">RM2026</text>
+<text x="40" y="153" fill="#f1f3f5" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="500">步兵机器人 · 整车电控</text>
+<text x="40" y="199" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400">STM32F407  /  C &amp; C++  /  CAN</text>
+<rect x="650" y="25" width="248" height="83" rx="10" fill="#10151b" stroke="#323a43"/>
+<text x="670" y="52" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" letter-spacing="1">01 / CHASSIS</text>
+<text x="670" y="86" fill="#f1f3f5" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="25" font-weight="600">底盘运动控制</text>
+<rect x="920" y="25" width="248" height="83" rx="10" fill="#10151b" stroke="#323a43"/>
+<text x="940" y="52" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" letter-spacing="1">02 / GIMBAL</text>
+<text x="940" y="86" fill="#f1f3f5" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="25" font-weight="600">云台姿态控制</text>
+<rect x="650" y="127" width="248" height="83" rx="10" fill="#10151b" stroke="#323a43"/>
+<text x="670" y="154" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" letter-spacing="1">03 / SHOOTER</text>
+<text x="670" y="188" fill="#f1f3f5" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="25" font-weight="600">发射机构协同</text>
+<rect x="920" y="127" width="248" height="83" rx="10" fill="#10151b" stroke="#323a43"/>
+<text x="940" y="154" fill="#a0a9b4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" letter-spacing="1">04 / INPUT</text>
+<text x="940" y="188" fill="#f1f3f5" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="25" font-weight="600">遥控与通信</text>
+</svg>

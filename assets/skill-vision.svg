@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+<title id="title">视觉与 ROS 联调</title>
+<desc id="desc">Python · OpenCV · YOLO；ROS Noetic · RGB-D · PaddleOCR；图像、深度与 TF 坐标对齐；将识别结果接入机器人行为</desc>
+<rect x="9" y="9" width="582" height="312" rx="18" fill="#f8f9fa" stroke="#d8dde3"/>
+<text x="36" y="49" fill="#5c6773" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" letter-spacing="1.2">02 / PERCEPTION</text>
+<g transform="translate(510 30)" fill="none" stroke="#5c6773" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 26s9-16 24-16 24 16 24 16-9 16-24 16S2 26 2 26z"/><circle cx="26" cy="26" r="8"/><path d="M2 11V2h9m30 0h9v9M2 41v9h9m30 0h9v-9"/></g>
+<text x="34" y="115" fill="#171c22" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="700">视觉与 ROS 联调</text>
+<text x="36" y="159" fill="#171c22" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="400">Python · OpenCV · YOLO</text>
+<text x="36" y="192" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="400">ROS Noetic · RGB-D · PaddleOCR</text>
+<path d="M36 222H564" stroke="#d8dde3" stroke-width="1"/>
+<text x="36" y="261" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="400">图像、深度与 TF 坐标对齐</text>
+<text x="36" y="293" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="400">将识别结果接入机器人行为</text>
+</svg>

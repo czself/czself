@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+<title id="title">电控与实时系统</title>
+<desc id="desc">C/C++ · STM32 · FreeRTOS；PID · CAN/UART · IMU；驱动接入、闭环控制与状态管理；从外设调试到步兵整车联调</desc>
+<rect x="9" y="9" width="582" height="312" rx="18" fill="#f8f9fa" stroke="#d8dde3"/>
+<text x="36" y="49" fill="#5c6773" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" letter-spacing="1.2">01 / CONTROL</text>
+<g transform="translate(510 30)" fill="none" stroke="#5c6773" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="10" width="32" height="32" rx="7"/><path d="M18 2v8m16-8v8M18 42v8m16-8v8M2 18h8m-8 16h8M42 18h8m-8 16h8"/><path d="M19 27l5 5 10-12"/></g>
+<text x="34" y="115" fill="#171c22" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="700">电控与实时系统</text>
+<text x="36" y="159" fill="#171c22" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="400">C/C++ · STM32 · FreeRTOS</text>
+<text x="36" y="192" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="400">PID · CAN/UART · IMU</text>
+<path d="M36 222H564" stroke="#d8dde3" stroke-width="1"/>
+<text x="36" y="261" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="21" font-weight="400">驱动接入、闭环控制与状态管理</text>
+<text x="36" y="293" fill="#5c6773" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="400">从外设调试到步兵整车联调</text>
+</svg>
