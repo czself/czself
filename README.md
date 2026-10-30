@@ -1,4 +1,7 @@
-<img src="./assets/header.svg" width="100%" alt="czself — Embedded systems, robotics and developer tools" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <img src="./assets/header.svg" width="100%" alt="czself — Embedded systems, robotics and developer tools" />
+</picture>
 
 以嵌入式与机器人为主线，记录从底层外设、系统集成到开发工具的实践。
 
