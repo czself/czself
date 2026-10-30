@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
   <title id="title">czself</title>
-  <desc id="desc">Embedded systems, robotics and developer tools. Minimal monochrome typography.</desc>
+  <desc id="desc">RoboMaster and embedded control. Minimal monochrome typography.</desc>
   <rect width="1200" height="210" fill="#0d1117"/>
   <text x="32" y="132" fill="#f0f6fc" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="112" font-weight="600" letter-spacing="-7">czself</text>
-  <text x="39" y="176" fill="#9198a1" font-family="Arial, Helvetica, sans-serif" font-size="21">Embedded systems · Robotics · Developer tools</text>
+  <text x="39" y="176" fill="#9198a1" font-family="Arial, Helvetica, sans-serif" font-size="21">RoboMaster · Embedded control</text>
   <path d="M866 66v98" stroke="#30363d"/>
   <g fill="#9198a1" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20">
-    <text x="909" y="104">C / C++</text>
-    <text x="909" y="143">Python / Rust</text>
+    <text x="909" y="104">STM32 / CAN</text>
+    <text x="909" y="143">C / FreeRTOS</text>
   </g>
 </svg>
