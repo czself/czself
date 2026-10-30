@@ -5,20 +5,12 @@
 
 **完整实现 RoboMaster 步兵机器人整车电控。** 关注嵌入式控制、整车联调，以及让问题可定位、让实现可验证的工程方法。
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>COMPETITION / ROBOMASTER</sub>
-      <h3>全国二等奖</h3>
-      <p>1v1 步兵对抗赛</p>
-    </td>
-    <td width="50%" valign="top">
-      <sub>MAIN PROJECT / YZ CONTROL</sub>
-      <h3><a href="https://github.com/totrytakeoff/RM2026/tree/basic_framework">RM2026 · 步兵整车</a></h3>
-      <p>底盘 · 云台 · 发射 · 遥控通信</p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/totrytakeoff/RM2026/tree/basic_framework">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/highlights-dark.svg" />
+    <img src="./assets/highlights.svg" width="100%" alt="RoboMaster 1v1 步兵对抗赛全国二等奖；RM2026 步兵整车电控实现：底盘、云台、发射与遥控通信。" />
+  </picture>
+</a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />

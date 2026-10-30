@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-labelledby="title desc">
+  <title id="title">全国二等奖 · RM2026 步兵整车电控</title>
+  <desc id="desc">RoboMaster 1v1 infantry competition national second prize. Complete infantry robot control implementation.</desc>
+  <g fill="#f6f8fa" stroke="#d1d9e0"><rect x="1" y="1" width="585" height="166" rx="10"/><rect x="610" y="1" width="589" height="166" rx="10"/></g>
+  <g fill="#656d76" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">
+    <text x="30" y="37">ROBOMASTER / 1V1</text><text x="640" y="37">RM2026 / YZ CONTROL</text>
+  </g>
+  <g fill="#1f2328" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700">
+    <text x="28" y="96">全国二等奖</text><text x="638" y="96">步兵整车电控</text>
+  </g>
+  <g fill="#656d76" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif" font-size="21">
+    <text x="30" y="137">步兵对抗赛</text><text x="640" y="137">底盘 / 云台 / 发射 / 遥控通信</text>
+  </g>
+</svg>
