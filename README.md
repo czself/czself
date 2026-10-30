@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <img src="./assets/header.svg" width="100%" alt="czself — RoboMaster and embedded control" />
+  <img src="./assets/header.svg" width="100%" alt="czself — RoboMaster robot control and algorithms" />
 </picture>
 
-**完整实现 RoboMaster 步兵机器人整车电控。** 关注嵌入式控制、整车联调，以及让问题可定位、让实现可验证的工程方法。
+**完整实现 RoboMaster 步兵机器人整车电控。** 目前负责 **步兵改哨兵的算法开发**，记录控制实现、系统联调与算法开发的工程实践。
 
 <a href="https://github.com/totrytakeoff/RM2026/tree/basic_framework">
   <picture>
